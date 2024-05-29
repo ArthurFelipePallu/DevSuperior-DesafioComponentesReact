@@ -1,0 +1,32 @@
+.dpr-text-card-container {
+  width: 280px;
+  height: 146px;
+  background-color: var(--dpr-color-background-tertiary);
+  border: 1px solid var(--dpr-color-border-primary);
+  border-radius: 12px;
+}
+
+.dpr-text-box {
+  width: 240px;
+  height: 96px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--dpr-color-font-tertiary);
+  text-align: left;
+  padding: 25px 20px;
+}
+
+@media(min-width:1200px)
+{
+  .dpr-text-card-container {
+    width: 960px;
+    height: 74px;
+    margin-top: 25px;
+
+  }
+  .dpr-text-box {
+    width: 812px;
+    height: 24px;
+  }
+}

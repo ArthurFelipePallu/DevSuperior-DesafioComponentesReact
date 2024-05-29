@@ -1,4 +1,3 @@
-
 @import url(https://fonts.google.com/specimen/Poppins);
 
 :root {
@@ -13,8 +12,29 @@
   --dpr-color-border-primary: #3c9af0;
 }
 
-.dpr-container {
-  width: 100%;
-  margin: 0;
+
+
+*{
+  box-sizing: border-box;
   padding: 0;
+  margin: 0;
+}
+.dpr-container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dpr-font-italic{
+  font-style: italic;
+}
+
+.dpr-mt25{
+  margin-top: 25px;
+}
+.dpr-padtp25{
+  padding-top: 25px;
+}
+.dpr-padtp50{
+  padding-top: 50px;
 }

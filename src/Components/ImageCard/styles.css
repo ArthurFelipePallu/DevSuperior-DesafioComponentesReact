@@ -1,0 +1,44 @@
+
+.dpr-card-container{
+    width: 280px;
+    height: 248px;
+    border: 1px solid var(--dpr-color-background-primary);
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+.dpr-card-image{
+    padding-top: 5px;
+    width: 260px;
+    height: 194px;
+}
+
+.dpr-card-text{
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--dpr-color-font-secondary);
+}
+
+
+@media(min-width:1200px){
+    .dpr-card-container{
+        width:746px;
+        height:352px;
+    }
+    .dpr-card-image{
+        padding-top: 20px;
+        width:391px;
+        height:292px;
+    }
+    .dpr-card-text{
+        padding-top: 10px;
+        font-size: 20px;
+    }
+}

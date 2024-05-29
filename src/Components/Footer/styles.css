@@ -1,0 +1,41 @@
+.dpr-footer-container {
+  width: 320px;
+  height: 120px;
+  text-align: center;
+  background-color: var(--dpr-color-background-primary);
+  justify-content: center;
+}
+.dpr-contact-box{
+padding-top: 25px;
+}
+.dpr-contact-fonts {
+  color: var(--dpr-color-font-primary);
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+.dpr-padtp35 {
+  padding-top: 35px;
+}
+
+@media (min-width: 1200px) {
+  .dpr-footer-container {
+    width: 1200px;
+    height: 74px;
+    margin-top: 25px;
+    padding-left: 120px;
+  }
+  .dpr-text-box {
+    width: 812px;
+    height: 24px;
+  }
+  .dpr-contact-box{
+    width: 960px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 49px;
+  }
+}

@@ -14,3 +14,10 @@
     font-size: 20px;
     font-family:Poppins;
 }
+
+
+@media(min-width:1200px){
+    .dpr-title{
+        font-size: 24px;
+    }
+}
